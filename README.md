@@ -1,1 +1,3 @@
-# homebrew_hello_world
+# Homebrew formula for warcat
+
+Please see https://code.moldybits.net/moldybits/warcat for warcat info
