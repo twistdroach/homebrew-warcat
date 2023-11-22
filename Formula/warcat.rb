@@ -6,6 +6,7 @@ class Warcat < Formula
   sha256 "93f5d06c8ace8030d384826a394348a3db8d83f63fd32c7b0b27d9a202234570"
 
   depends_on "rust" => :build
+  depends_on "cmake" => :build
 
   def install
     system "cargo", "build", "--release"
